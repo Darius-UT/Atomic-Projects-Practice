@@ -42,7 +42,7 @@
                 <input type="email" name="email" class="input-text" placeholder="Enter your email address" pattern="[a-zA-Z]+@gmail.com">
                 <input type="password" name="pass-word" class="input-text" placeholder="Enter your password">
 
-                <button type="button">Sign up</button>
+                <button type="submit">Sign up</button>
             </form>
         </div>
 
@@ -59,12 +59,12 @@
                 </div>
                 <span>or use your email & password to log in.</span>
         
-                <input type="email" name="email" class="input-text" placeholder="Enter your email address" pattern="[a-zA-Z]+@gmail.com">
-                <input type="password" name="pass-word" class="input-text" placeholder="Enter your password">
+                <input type="email" name="email" class="input-text" placeholder="Enter your email address" pattern="[a-zA-Z0-9.]+@[a-zA-Z0-9.]+" required>
+                <input type="password" name="pass-word" class="input-text" placeholder="Enter your password" required>
 
-                <a href="abc.com">Forgot your password?</a>
+                <a href="forgot_password.html">Forgot your password?</a>
 
-                <button type="button">Sign In</button>
+                <button type="submit">Sign In</button>
             </form>
         </div>
 

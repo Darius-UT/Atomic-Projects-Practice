@@ -5,7 +5,7 @@
 <div align="center">
     <h1>HTML - CSS - JAVASCRIPT (Personal Practice)</h1>
 </div>
-  
+
 ## 1. Introduction
 
 My ultimate goal is becoming a professional **full-stack developer** in the next 05 years. This is the place that takes place the all the practical mini projects which uses **HTLL**, **CSS** & **Javascript**.

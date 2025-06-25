@@ -118,6 +118,8 @@ body {
     border: solid 0.5px #818181;
     border-radius: 20%;
     margin: 25px 5px;
+
+    user-select: none;
 }
 
 .form-container {
@@ -146,7 +148,7 @@ body {
 }
 
 .toggle-panel {
-    background-color: var(--primary-color);
+    background: linear-gradient(-90deg, rgb(105, 70, 156), rgb(56, 12, 121));
     width: 100%;
     height: 100%;
     padding: 0 30px;
